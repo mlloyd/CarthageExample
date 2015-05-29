@@ -1,0 +1,14 @@
+language: objective-c
+branches:
+  only:
+    - master
+before_install:
+    - brew update && brew upgrade xctool
+    - brew install xctool
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+    - cd Tests && pod install && cd $TRAVIS_BUILD_DIR
+before_script:
+    - sudo easy_install cpp-coveralls
+script: rake test
+after_success:
+    - ./coveralls.rb --extension m --exclude-folder Tests

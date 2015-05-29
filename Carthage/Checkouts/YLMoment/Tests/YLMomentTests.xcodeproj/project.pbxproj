@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276FA9FF18D02B18003A3E3F /* YLMomentTest+LangZh.m in Sources */ = {isa = PBXBuildFile; fileRef = 276FA9FE18D02B18003A3E3F /* YLMomentTest+LangZh.m */; };
+		276FAA0018D02B1A003A3E3F /* YLMomentTest+LangZh.m in Sources */ = {isa = PBXBuildFile; fileRef = 276FA9FE18D02B18003A3E3F /* YLMomentTest+LangZh.m */; };
+		A54704E318B0759600497886 /* YLMomentTest+LangPt.m in Sources */ = {isa = PBXBuildFile; fileRef = A54704E218B0759600497886 /* YLMomentTest+LangPt.m */; };
+		C3EC52F6F21D4DC5A1F10500 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC09F2AE9564D008900DA94 /* libPods-ios.a */; };
+		ED7DF6AE538742429A8AEA2C /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE61FE220675422EAEE6FB3F /* libPods-osx.a */; };
+		F425CFC61828296E002CABDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4605D41181C33E3007F83EF /* XCTest.framework */; };
+		F425CFCC1828296E002CABDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F425CFCA1828296E002CABDC /* InfoPlist.strings */; };
+		F425CFE2182844D1002CABDC /* YLMomentTests+Add_Substract.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD7182844D1002CABDC /* YLMomentTests+Add_Substract.m */; };
+		F425CFE3182844D1002CABDC /* YLMomentTests+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD8182844D1002CABDC /* YLMomentTests+Create.m */; };
+		F425CFE4182844D1002CABDC /* YLMomentTests+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD9182844D1002CABDC /* YLMomentTests+Format.m */; };
+		F425CFE5182844D1002CABDC /* YLMomentTests+Getters_Setters.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDA182844D1002CABDC /* YLMomentTests+Getters_Setters.m */; };
+		F425CFE6182844D1002CABDC /* YLMomentTests+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDB182844D1002CABDC /* YLMomentTests+Helpers.m */; };
+		F425CFE7182844D1002CABDC /* YLMomentTests+SOD_EOD.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDC182844D1002CABDC /* YLMomentTests+SOD_EOD.m */; };
+		F425CFE8182844D1002CABDC /* YLMomentTest+LangEn.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDE182844D1002CABDC /* YLMomentTest+LangEn.m */; };
+		F425CFE9182844D1002CABDC /* YLMomentTest+LangEs.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDF182844D1002CABDC /* YLMomentTest+LangEs.m */; };
+		F425CFEA182844D1002CABDC /* YLMomentTest+LangFr.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFE0182844D1002CABDC /* YLMomentTest+LangFr.m */; };
+		F425CFEB182844D1002CABDC /* YLMomentTest+LangSq.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFE1182844D1002CABDC /* YLMomentTest+LangSq.m */; };
+		F425CFEC182844E1002CABDC /* YLMomentTests+Add_Substract.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD7182844D1002CABDC /* YLMomentTests+Add_Substract.m */; };
+		F425CFED182844E1002CABDC /* YLMomentTests+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD8182844D1002CABDC /* YLMomentTests+Create.m */; };
+		F425CFEE182844E1002CABDC /* YLMomentTests+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFD9182844D1002CABDC /* YLMomentTests+Format.m */; };
+		F425CFEF182844E1002CABDC /* YLMomentTests+Getters_Setters.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDA182844D1002CABDC /* YLMomentTests+Getters_Setters.m */; };
+		F425CFF0182844E1002CABDC /* YLMomentTests+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDB182844D1002CABDC /* YLMomentTests+Helpers.m */; };
+		F425CFF1182844E1002CABDC /* YLMomentTests+SOD_EOD.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDC182844D1002CABDC /* YLMomentTests+SOD_EOD.m */; };
+		F425CFF2182844E1002CABDC /* YLMomentTest+LangEn.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDE182844D1002CABDC /* YLMomentTest+LangEn.m */; };
+		F425CFF3182844E1002CABDC /* YLMomentTest+LangEs.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFDF182844D1002CABDC /* YLMomentTest+LangEs.m */; };
+		F425CFF4182844E1002CABDC /* YLMomentTest+LangFr.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFE0182844D1002CABDC /* YLMomentTest+LangFr.m */; };
+		F425CFF5182844E1002CABDC /* YLMomentTest+LangSq.m in Sources */ = {isa = PBXBuildFile; fileRef = F425CFE1182844D1002CABDC /* YLMomentTest+LangSq.m */; };
+		F4381B281886B744008C50E0 /* YLMomentTest+LangDe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4381B271886B744008C50E0 /* YLMomentTest+LangDe.m */; };
+		F4381B291886B7B1008C50E0 /* YLMomentTest+LangDe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4381B271886B744008C50E0 /* YLMomentTest+LangDe.m */; };
+		F43B57FF18B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43B57F518B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings */; };
+		F43B580018B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43B57F518B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings */; };
+		F43B580118B22E41001E9993 /* YLMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = F43B57FE18B22E41001E9993 /* YLMoment.m */; };
+		F43B580218B22E41001E9993 /* YLMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = F43B57FE18B22E41001E9993 /* YLMoment.m */; };
+		F4605D3A181C33AA007F83EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4605D38181C33AA007F83EF /* InfoPlist.strings */; };
+		F4605D42181C33E3007F83EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4605D41181C33E3007F83EF /* XCTest.framework */; };
+		F4605D46181C33F2007F83EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4605D45181C33F2007F83EF /* UIKit.framework */; };
+		F4605D47181C3416007F83EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4605D43181C33EA007F83EF /* Foundation.framework */; };
+		F48F2F2E18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F48F2F2D18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m */; };
+		F48F2F2F18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F48F2F2D18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m */; };
+		F4AA173318B222950081F8AB /* YLMomentTest+LangPt.m in Sources */ = {isa = PBXBuildFile; fileRef = A54704E218B0759600497886 /* YLMomentTest+LangPt.m */; };
+		F4DF36B1183BA7700091E80A /* YLMomentTest+LangNl.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FDEA381838D38D00DB3901 /* YLMomentTest+LangNl.m */; };
+		F4FDEA391838D38D00DB3901 /* YLMomentTest+LangNl.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FDEA381838D38D00DB3901 /* YLMomentTest+LangNl.m */; };
+		FA3A095518BDECE5001B2475 /* YLMomentTest+LangJa.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A095418BDECE5001B2475 /* YLMomentTest+LangJa.m */; };
+		FA3A095618BDECE5001B2475 /* YLMomentTest+LangJa.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3A095418BDECE5001B2475 /* YLMomentTest+LangJa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A4EC13457F2621EA1A567BA /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
+		276FA9FE18D02B18003A3E3F /* YLMomentTest+LangZh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangZh.m"; sourceTree = "<group>"; };
+		2776776318D3FF9C00FB3B63 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		3F5C784BF7F94CC5AA4D6CB4 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
+		60B2268F4E6CDABB11D2A76D /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
+		A54704E218B0759600497886 /* YLMomentTest+LangPt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangPt.m"; sourceTree = "<group>"; };
+		ADC09F2AE9564D008900DA94 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE61FE220675422EAEE6FB3F /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1488949471DC825FD34BA6 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F425CFC018282516002CABDC /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F425CFC51828296E002CABDC /* OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F425CFC91828296E002CABDC /* OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXTests-Info.plist"; sourceTree = "<group>"; };
+		F425CFCB1828296E002CABDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F425CFCF1828296E002CABDC /* OSXTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXTests-Prefix.pch"; sourceTree = "<group>"; };
+		F425CFD7182844D1002CABDC /* YLMomentTests+Add_Substract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+Add_Substract.m"; sourceTree = "<group>"; };
+		F425CFD8182844D1002CABDC /* YLMomentTests+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+Create.m"; sourceTree = "<group>"; };
+		F425CFD9182844D1002CABDC /* YLMomentTests+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+Format.m"; sourceTree = "<group>"; };
+		F425CFDA182844D1002CABDC /* YLMomentTests+Getters_Setters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+Getters_Setters.m"; sourceTree = "<group>"; };
+		F425CFDB182844D1002CABDC /* YLMomentTests+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+Helpers.m"; sourceTree = "<group>"; };
+		F425CFDC182844D1002CABDC /* YLMomentTests+SOD_EOD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTests+SOD_EOD.m"; sourceTree = "<group>"; };
+		F425CFDE182844D1002CABDC /* YLMomentTest+LangEn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangEn.m"; sourceTree = "<group>"; };
+		F425CFDF182844D1002CABDC /* YLMomentTest+LangEs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangEs.m"; sourceTree = "<group>"; };
+		F425CFE0182844D1002CABDC /* YLMomentTest+LangFr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangFr.m"; sourceTree = "<group>"; };
+		F425CFE1182844D1002CABDC /* YLMomentTest+LangSq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangSq.m"; sourceTree = "<group>"; };
+		F4381B271886B744008C50E0 /* YLMomentTest+LangDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangDe.m"; sourceTree = "<group>"; };
+		F43B57F618B22E41001E9993 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57F718B22E41001E9993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57F818B22E41001E9993 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57F918B22E41001E9993 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57FA18B22E41001E9993 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57FB18B22E41001E9993 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57FC18B22E41001E9993 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		F43B57FD18B22E41001E9993 /* YLMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMoment.h; sourceTree = "<group>"; };
+		F43B57FE18B22E41001E9993 /* YLMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMoment.m; sourceTree = "<group>"; };
+		F4605D37181C33AA007F83EF /* iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTests-Info.plist"; sourceTree = "<group>"; };
+		F4605D39181C33AA007F83EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4605D3D181C33AA007F83EF /* iOSTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTests-Prefix.pch"; sourceTree = "<group>"; };
+		F4605D41181C33E3007F83EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4605D43181C33EA007F83EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F4605D45181C33F2007F83EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F48F2F2D18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMomentLocalizableStringsTest.m; sourceTree = "<group>"; };
+		F48F2F3018ACDF0500173D37 /* YLMoment_UnitTestAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMoment_UnitTestAdditions.h; sourceTree = "<group>"; };
+		F4FDEA381838D38D00DB3901 /* YLMomentTest+LangNl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangNl.m"; sourceTree = "<group>"; };
+		FA0470E918BDEEEA00BC1B91 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/YLMomentRelativeTimeLocalizable.strings; sourceTree = "<group>"; };
+		FA3A095418BDECE5001B2475 /* YLMomentTest+LangJa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YLMomentTest+LangJa.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F425CFC21828296E002CABDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F425CFC61828296E002CABDC /* XCTest.framework in Frameworks */,
+				ED7DF6AE538742429A8AEA2C /* libPods-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4605D2A181C33AA007F83EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4605D47181C3416007F83EF /* Foundation.framework in Frameworks */,
+				F4605D46181C33F2007F83EF /* UIKit.framework in Frameworks */,
+				F4605D42181C33E3007F83EF /* XCTest.framework in Frameworks */,
+				C3EC52F6F21D4DC5A1F10500 /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A49C5A1BECFF6F0C6118F335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB1488949471DC825FD34BA6 /* Pods-ios.debug.xcconfig */,
+				3F5C784BF7F94CC5AA4D6CB4 /* Pods-ios.release.xcconfig */,
+				60B2268F4E6CDABB11D2A76D /* Pods-osx.debug.xcconfig */,
+				1A4EC13457F2621EA1A567BA /* Pods-osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F425CFC71828296E002CABDC /* OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				F425CFC81828296E002CABDC /* Supporting Files */,
+			);
+			path = OSXTests;
+			sourceTree = "<group>";
+		};
+		F425CFC81828296E002CABDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F425CFC91828296E002CABDC /* OSXTests-Info.plist */,
+				F425CFCA1828296E002CABDC /* InfoPlist.strings */,
+				F425CFCF1828296E002CABDC /* OSXTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F425CFD5182844D1002CABDC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F48F2F2C18ACDD9700173D37 /* Main */,
+				F425CFD6182844D1002CABDC /* Core */,
+				F425CFDD182844D1002CABDC /* Lang */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F425CFD6182844D1002CABDC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F425CFD7182844D1002CABDC /* YLMomentTests+Add_Substract.m */,
+				F425CFD8182844D1002CABDC /* YLMomentTests+Create.m */,
+				F425CFD9182844D1002CABDC /* YLMomentTests+Format.m */,
+				F425CFDA182844D1002CABDC /* YLMomentTests+Getters_Setters.m */,
+				F425CFDB182844D1002CABDC /* YLMomentTests+Helpers.m */,
+				F425CFDC182844D1002CABDC /* YLMomentTests+SOD_EOD.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F425CFDD182844D1002CABDC /* Lang */ = {
+			isa = PBXGroup;
+			children = (
+				F4381B271886B744008C50E0 /* YLMomentTest+LangDe.m */,
+				F425CFDE182844D1002CABDC /* YLMomentTest+LangEn.m */,
+				F425CFDF182844D1002CABDC /* YLMomentTest+LangEs.m */,
+				F425CFE0182844D1002CABDC /* YLMomentTest+LangFr.m */,
+				F4FDEA381838D38D00DB3901 /* YLMomentTest+LangNl.m */,
+				F425CFE1182844D1002CABDC /* YLMomentTest+LangSq.m */,
+				A54704E218B0759600497886 /* YLMomentTest+LangPt.m */,
+				FA3A095418BDECE5001B2475 /* YLMomentTest+LangJa.m */,
+				276FA9FE18D02B18003A3E3F /* YLMomentTest+LangZh.m */,
+			);
+			path = Lang;
+			sourceTree = "<group>";
+		};
+		F43B57F318B22E41001E9993 /* YLMoment */ = {
+			isa = PBXGroup;
+			children = (
+				F43B57F418B22E41001E9993 /* Localization */,
+				F43B57FD18B22E41001E9993 /* YLMoment.h */,
+				F43B57FE18B22E41001E9993 /* YLMoment.m */,
+			);
+			name = YLMoment;
+			path = ../YLMoment;
+			sourceTree = "<group>";
+		};
+		F43B57F418B22E41001E9993 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F43B57F518B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		F4605D09181C326A007F83EF = {
+			isa = PBXGroup;
+			children = (
+				F43B57F318B22E41001E9993 /* YLMoment */,
+				F425CFD5182844D1002CABDC /* Tests */,
+				F4605D35181C33AA007F83EF /* iOSTests */,
+				F425CFC71828296E002CABDC /* OSXTests */,
+				F4605D2E181C33AA007F83EF /* Frameworks */,
+				F4DD860A18292B79008D0D88 /* Products */,
+				A49C5A1BECFF6F0C6118F335 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F4605D2E181C33AA007F83EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4605D43181C33EA007F83EF /* Foundation.framework */,
+				F4605D45181C33F2007F83EF /* UIKit.framework */,
+				F4605D41181C33E3007F83EF /* XCTest.framework */,
+				ADC09F2AE9564D008900DA94 /* libPods-ios.a */,
+				AE61FE220675422EAEE6FB3F /* libPods-osx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4605D35181C33AA007F83EF /* iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4605D36181C33AA007F83EF /* Supporting Files */,
+			);
+			path = iOSTests;
+			sourceTree = "<group>";
+		};
+		F4605D36181C33AA007F83EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4605D37181C33AA007F83EF /* iOSTests-Info.plist */,
+				F4605D38181C33AA007F83EF /* InfoPlist.strings */,
+				F4605D3D181C33AA007F83EF /* iOSTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F48F2F2C18ACDD9700173D37 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F48F2F3018ACDF0500173D37 /* YLMoment_UnitTestAdditions.h */,
+				F48F2F2D18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F4DD860A18292B79008D0D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F425CFC018282516002CABDC /* iOSTests.xctest */,
+				F425CFC51828296E002CABDC /* OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F425CFC41828296E002CABDC /* OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F425CFD21828296E002CABDC /* Build configuration list for PBXNativeTarget "OSXTests" */;
+			buildPhases = (
+				C046DAF74BAA4A0E9999F383 /* Check Pods Manifest.lock */,
+				F425CFC11828296E002CABDC /* Sources */,
+				F425CFC21828296E002CABDC /* Frameworks */,
+				F425CFC31828296E002CABDC /* Resources */,
+				39502A1232304B5AA75BF740 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXTests;
+			productName = OSXTests;
+			productReference = F425CFC51828296E002CABDC /* OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4605D2C181C33AA007F83EF /* iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4605D3E181C33AA007F83EF /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildPhases = (
+				720CE271DFCB4ED1B5066E61 /* Check Pods Manifest.lock */,
+				F4605D29181C33AA007F83EF /* Sources */,
+				F4605D2A181C33AA007F83EF /* Frameworks */,
+				F4605D2B181C33AA007F83EF /* Resources */,
+				AFEE106CC02B479C86C003CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTests;
+			productName = iOSTests;
+			productReference = F425CFC018282516002CABDC /* iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4605D0A181C326A007F83EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YannickLoriot;
+				TargetAttributes = {
+					F425CFC41828296E002CABDC = {
+						TestTargetID = F4605D2C181C33AA007F83EF;
+					};
+				};
+			};
+			buildConfigurationList = F4605D0D181C326A007F83EF /* Build configuration list for PBXProject "YLMomentTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				es,
+				sq,
+				de,
+				nl,
+				pt,
+				ja,
+				zh,
+			);
+			mainGroup = F4605D09181C326A007F83EF;
+			productRefGroup = F4605D09181C326A007F83EF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4605D2C181C33AA007F83EF /* iOSTests */,
+				F425CFC41828296E002CABDC /* OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F425CFC31828296E002CABDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F425CFCC1828296E002CABDC /* InfoPlist.strings in Resources */,
+				F43B580018B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4605D2B181C33AA007F83EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4605D3A181C33AA007F83EF /* InfoPlist.strings in Resources */,
+				F43B57FF18B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39502A1232304B5AA75BF740 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720CE271DFCB4ED1B5066E61 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		AFEE106CC02B479C86C003CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C046DAF74BAA4A0E9999F383 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F425CFC11828296E002CABDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F425CFEC182844E1002CABDC /* YLMomentTests+Add_Substract.m in Sources */,
+				F425CFED182844E1002CABDC /* YLMomentTests+Create.m in Sources */,
+				F43B580218B22E41001E9993 /* YLMoment.m in Sources */,
+				F425CFEE182844E1002CABDC /* YLMomentTests+Format.m in Sources */,
+				F425CFEF182844E1002CABDC /* YLMomentTests+Getters_Setters.m in Sources */,
+				F425CFF0182844E1002CABDC /* YLMomentTests+Helpers.m in Sources */,
+				F425CFF1182844E1002CABDC /* YLMomentTests+SOD_EOD.m in Sources */,
+				F4381B291886B7B1008C50E0 /* YLMomentTest+LangDe.m in Sources */,
+				F425CFF2182844E1002CABDC /* YLMomentTest+LangEn.m in Sources */,
+				F425CFF3182844E1002CABDC /* YLMomentTest+LangEs.m in Sources */,
+				F48F2F2F18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m in Sources */,
+				F4AA173318B222950081F8AB /* YLMomentTest+LangPt.m in Sources */,
+				276FAA0018D02B1A003A3E3F /* YLMomentTest+LangZh.m in Sources */,
+				F425CFF4182844E1002CABDC /* YLMomentTest+LangFr.m in Sources */,
+				FA3A095618BDECE5001B2475 /* YLMomentTest+LangJa.m in Sources */,
+				F4DF36B1183BA7700091E80A /* YLMomentTest+LangNl.m in Sources */,
+				F425CFF5182844E1002CABDC /* YLMomentTest+LangSq.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4605D29181C33AA007F83EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F425CFE2182844D1002CABDC /* YLMomentTests+Add_Substract.m in Sources */,
+				F425CFE5182844D1002CABDC /* YLMomentTests+Getters_Setters.m in Sources */,
+				F43B580118B22E41001E9993 /* YLMoment.m in Sources */,
+				F425CFE3182844D1002CABDC /* YLMomentTests+Create.m in Sources */,
+				F425CFEA182844D1002CABDC /* YLMomentTest+LangFr.m in Sources */,
+				F425CFE8182844D1002CABDC /* YLMomentTest+LangEn.m in Sources */,
+				F425CFE6182844D1002CABDC /* YLMomentTests+Helpers.m in Sources */,
+				F425CFE4182844D1002CABDC /* YLMomentTests+Format.m in Sources */,
+				F4381B281886B744008C50E0 /* YLMomentTest+LangDe.m in Sources */,
+				A54704E318B0759600497886 /* YLMomentTest+LangPt.m in Sources */,
+				F425CFEB182844D1002CABDC /* YLMomentTest+LangSq.m in Sources */,
+				F48F2F2E18ACDD9700173D37 /* YLMomentLocalizableStringsTest.m in Sources */,
+				276FA9FF18D02B18003A3E3F /* YLMomentTest+LangZh.m in Sources */,
+				F425CFE7182844D1002CABDC /* YLMomentTests+SOD_EOD.m in Sources */,
+				FA3A095518BDECE5001B2475 /* YLMomentTest+LangJa.m in Sources */,
+				F425CFE9182844D1002CABDC /* YLMomentTest+LangEs.m in Sources */,
+				F4FDEA391838D38D00DB3901 /* YLMomentTest+LangNl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F425CFCA1828296E002CABDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F425CFCB1828296E002CABDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F43B57F518B22E41001E9993 /* YLMomentRelativeTimeLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43B57F618B22E41001E9993 /* de */,
+				F43B57F718B22E41001E9993 /* en */,
+				F43B57F818B22E41001E9993 /* es */,
+				F43B57F918B22E41001E9993 /* fr */,
+				F43B57FA18B22E41001E9993 /* nl */,
+				F43B57FB18B22E41001E9993 /* pt */,
+				F43B57FC18B22E41001E9993 /* sq */,
+				FA0470E918BDEEEA00BC1B91 /* ja */,
+				2776776318D3FF9C00FB3B63 /* zh */,
+			);
+			name = YLMomentRelativeTimeLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		F4605D38181C33AA007F83EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4605D39181C33AA007F83EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F425CFD31828296E002CABDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B2268F4E6CDABB11D2A76D /* Pods-osx.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXTests/OSXTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F425CFD41828296E002CABDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4EC13457F2621EA1A567BA /* Pods-osx.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXTests/OSXTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OSXTests/OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		F4605D0E181C326A007F83EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4605D0F181C326A007F83EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F4605D3F181C33AA007F83EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1488949471DC825FD34BA6 /* Pods-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTests/iOSTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOSTests/iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4605D40181C33AA007F83EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5C784BF7F94CC5AA4D6CB4 /* Pods-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTests/iOSTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOSTests/iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F425CFD21828296E002CABDC /* Build configuration list for PBXNativeTarget "OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F425CFD31828296E002CABDC /* Debug */,
+				F425CFD41828296E002CABDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4605D0D181C326A007F83EF /* Build configuration list for PBXProject "YLMomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4605D0E181C326A007F83EF /* Debug */,
+				F4605D0F181C326A007F83EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4605D3E181C33AA007F83EF /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4605D3F181C33AA007F83EF /* Debug */,
+				F4605D40181C33AA007F83EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4605D0A181C326A007F83EF /* Project object */;
+}
