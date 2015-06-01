@@ -1,29 +1,26 @@
-# github "steipete/Aspects" 		 ~> 1.4.1							# No dynamic frameworks to be built
-# github "nicklockwood/FXForms" 	 ~> 1.1.6							# No dynamic frameworks to be built
-# github "nicklockwood/FXKeychain" ~> 1.5.2 							# ** WORKS
-# #github "bitstadium/HockeySDK"   ~> 3.6.1 							# Username and password issue
-# github "mlloyd/JLRoutes" "0452dde59c6ca42aaba5ce9f14a8c6ba15cc7235" # ** WORKS - Forked to my github
-# github "Mantle/Mantle" 			 ~> 1.3.1 							# ** WORKS
+# github "steipete/Aspects" 		 ~> 1.4.1						# No dynamic frameworks to be built
+# github "nicklockwood/FXForms" 	 ~> 1.1.6						# No dynamic frameworks to be built
+github "nicklockwood/FXKeychain" ~> 1.5.2 							# ** WORKS
+# github "bitstadium/HockeySDK"   ~> 3.6.1 							# Username and password issue
+github "mlloyd/JLRoutes" "0452dde59c6ca42aaba5ce9f14a8c6ba15cc7235" # ** WORKS - Forked to my github
+github "Mantle/Mantle" 			 ~> 1.3.1 							# ** WORKS
 # github "SnapKit/Masonry" 		 ~> 0.6.1							# No dynamic frameworks to be built
 
-# #github "Nyx0uf/NYXImagesKit" 	 ~> 2.3 							# No shared schemes // <---- Not actally used.
-# github "atomicobject/Objection" ~> 1.5								# The requested URL returned error: 400 ??
-# #github "RNCryptor/RNCryptor" 	 ~> 2.2 							# No shared schemes
+# github "Nyx0uf/NYXImagesKit" 	 ~> 2.3 							# No shared schemes // <---- Not actally used.
+# github "atomicobject/Objection" ~> 1.5							# The requested URL returned error: 400 ??
+# github "RNCryptor/RNCryptor" 	 ~> 2.2 							# No shared schemes
 # github "robotmedia/RMStore" 	 ~> 0.7.1							# No dynamic frameworks to be built
-# #github "rs/SDWebImage" 		  	 ~> 3.7.1 						# No shared schemes
+# github "rs/SDWebImage" 		  	 ~> 3.7.1 						# No shared schemes
 # github "TTTAttributedLabel/TTTAttributedLabel" ~> 1.10.1			# No dynamic frameworks to be built
-# github "yannickl/YLMoment" 		 ~> 0.5.1							# No dynamic frameworks to be built
-# # Development Frameworks
-# #github "facebook/Tweaks" 		 ~> 2.0.0 							# No shared schemes // <---- Partially used, minimally.
-# # Unit Test Frameworks
-# github "AliSoftware/OHHTTPStubs" ~> 4.0.2 							# ** WORKS
+# github "yannickl/YLMoment" 		 ~> 0.5.1						# No dynamic frameworks to be built
 
+# Development Frameworks
+# github "facebook/Tweaks" 		 ~> 2.0.0 							# No shared schemes // <---- Partially used, minimally.
 
+# Unit Test Frameworks
+github "AliSoftware/OHHTTPStubs" ~> 4.0.2 							# ** WORKS
 
 ##########################
 # No shared schemes
 ##########################
 # Needs to be forked
-
-
-github "SnapKit/SnapKit" >= 0.11.0

@@ -1,1 +1,4 @@
-github "SnapKit/SnapKit" "0.11.0"
+github "nicklockwood/FXKeychain" "1.5.3"
+github "mlloyd/JLRoutes" "0452dde59c6ca42aaba5ce9f14a8c6ba15cc7235"
+github "Mantle/Mantle" "1.5.4"
+github "AliSoftware/OHHTTPStubs" "4.0.2"
