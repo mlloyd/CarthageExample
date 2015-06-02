@@ -9,7 +9,6 @@
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
 
-@import Mantle;
 @import CarthageExampleCore.CEModel;
 
 @interface TodayViewController () <NCWidgetProviding>
@@ -21,9 +20,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    MTLModel *model = [[MTLModel alloc] init];
-    model = nil;
     
     CEModel *ceModel = [[CEModel alloc] init];
     ceModel = nil;

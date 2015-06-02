@@ -1,11 +1,13 @@
-github "mlloyd/Aspects" 		 "master" # --- WORKS --- (Forked)
-github "mlloyd/FXForms" 	 	 "master" # --- WORKS --- (Forked)
-github "nicklockwood/FXKeychain" "master" # --- WORKS ---
-github "mlloyd/JLRoutes" 		 "master" # --- WORKS --- (Forked)
-github "Mantle/Mantle" 			 == 1.5.4 # --- WORKS --- (Consider using 2.x.x version ??)
-github "SnapKit/Masonry"  		 "master" # --- WORKS ---
-github "rs/SDWebImage" 			 "master" # --- WORKS ---
-github "mlloyd/YLMoment" 		 "master" # --- WORKS --- (Forked)
+github "mlloyd/Aspects" 		 "master"  # --- WORKS --- (Forked)
+github "mlloyd/FXForms" 	 	 "master"  # --- WORKS --- (Forked)
+github "nicklockwood/FXKeychain" "master"  # --- WORKS ---
+github "mlloyd/JLRoutes" 		 "master"  # --- WORKS --- (Forked)
+github "Mantle/Mantle" 			 == 1.5.4  # --- WORKS --- (Consider using 2.x.x version ??)
+github "SnapKit/Masonry"  		 "master"  # --- WORKS ---
+github "mlloyd/objection"		 "develop" # --- WORKS --- (Forked)
+github "rs/SDWebImage" 			 "master"  # --- WORKS ---
+github "mlloyd/RNCryptor"		 "master"  # --- WORKS --- (Forked)
+github "mlloyd/YLMoment" 		 "master"  # --- WORKS --- (Forked)
 
 github "TTTAttributedLabel/TTTAttributedLabel" "master" # --- WORKS ---
 
@@ -14,16 +16,14 @@ github "AliSoftware/OHHTTPStubs" == 4.0.2 	# --- WORKS ---
 
 # Sub frameworks
 github "mixpanel/mixpanel-iphone" 		 "master" # No dynamic frameworks to be built
-github "CocoaLumberjack/CocoaLumberjack" "2.2.0"  # --- WORKS ---
+#github "CocoaLumberjack/CocoaLumberjack" "master"  # Swift compiler errors.. on master
 github "ReactiveCocoa/ReactiveCocoa" 	 == 2.5   # --- WORKS ---
 
 ##
 # Needs work: 
 ##
-github "atomicobject/Objection"	"master"	# --- WORKS --- (MAC ONLY) - NEED TO FORK
-github "RNCryptor/RNCryptor" 	"master"	# --- WORKS --- (MAC ONLY) - NEED TO FORK
 github "robotmedia/RMStore"		"master"	# No dynamic frameworks to be built
 
-# Will include this framework via the website.
-#github "bitstadium/HockeySDK-iOS" == 3.6.4 # No dynamic frameworks to be built // Don't use this, pull in from the website??
-
+# Sub frameworks
+github "mixpanel/mixpanel-iphone" 		 "master" # No dynamic frameworks to be built
+#github "CocoaLumberjack/CocoaLumberjack" "master"  # Swift compiler errors.. on master

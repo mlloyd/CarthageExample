@@ -20,22 +20,24 @@
 		C135EB4A1B1745C200D852D1 /* CarthageExampleCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB491B1745C200D852D1 /* CarthageExampleCoreTests.m */; };
 		C135EB4D1B1745C200D852D1 /* CarthageExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB361B1745C200D852D1 /* CarthageExampleCore.framework */; };
 		C135EB4E1B1745C200D852D1 /* CarthageExampleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB361B1745C200D852D1 /* CarthageExampleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C135EB561B1745DB00D852D1 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
-		C135EB571B17498B00D852D1 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
 		C135EB581B1749E700D852D1 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
 		C135EB601B174C7800D852D1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB5F1B174C7800D852D1 /* NotificationCenter.framework */; };
 		C135EB661B174C7800D852D1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB651B174C7800D852D1 /* TodayViewController.m */; };
 		C135EB681B174C7800D852D1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C135EB671B174C7800D852D1 /* MainInterface.storyboard */; };
 		C135EB6B1B174C7800D852D1 /* CarthageExampleTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C135EB5E1B174C7800D852D1 /* CarthageExampleTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C135EB701B174C8600D852D1 /* CarthageExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB361B1745C200D852D1 /* CarthageExampleCore.framework */; };
-		C135EB711B174C9800D852D1 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
 		C135EB741B174D1E00D852D1 /* CEModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C135EB721B174D1E00D852D1 /* CEModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C135EB751B174D1E00D852D1 /* CEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB731B174D1E00D852D1 /* CEModel.m */; };
-		C14FA8391B18C28C00143FC8 /* CERoute.h in Headers */ = {isa = PBXBuildFile; fileRef = C14FA8371B18C28C00143FC8 /* CERoute.h */; };
-		C14FA83A1B18C28C00143FC8 /* CERoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FA8381B18C28C00143FC8 /* CERoute.m */; };
-		C14FA83C1B18C2B200143FC8 /* JLRoutes-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA83B1B18C2B200143FC8 /* JLRoutes-iOS.framework */; };
-		C14FA83D1B18C2CF00143FC8 /* JLRoutes-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA83B1B18C2B200143FC8 /* JLRoutes-iOS.framework */; };
-		C14FA8421B18CF1E00143FC8 /* JLRoutes-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA83B1B18C2B200143FC8 /* JLRoutes-iOS.framework */; };
+		C14FA9DA1B1DBEFA00143FC8 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D11B1DBEFA00143FC8 /* Aspects.framework */; };
+		C14FA9DB1B1DBEFA00143FC8 /* FXForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */; };
+		C14FA9DC1B1DBEFA00143FC8 /* FXKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */; };
+		C14FA9DD1B1DBEFA00143FC8 /* JLRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */; };
+		C14FA9DE1B1DBEFA00143FC8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */; };
+		C14FA9DF1B1DBEFA00143FC8 /* Objection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D61B1DBEFA00143FC8 /* Objection.framework */; };
+		C14FA9E01B1DBEFA00143FC8 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */; };
+		C14FA9E11B1DBEFA00143FC8 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */; };
+		C14FA9E21B1DBEFA00143FC8 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */; };
+		C14FA9E51B1DBF4C00143FC8 /* CERoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FA9E41B1DBF4C00143FC8 /* CERoute.m */; };
+		C14FA9E61B1DBFC300143FC8 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C135EB5D1B174C7800D852D1;
 			remoteInfo = CarthageExampleTodayExtension;
+		};
+		C14FA9E91B1DC40E00143FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C135EAFC1B17446000D852D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C135EB351B1745C200D852D1;
+			remoteInfo = CarthageExampleCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -130,9 +139,17 @@
 		C135EB671B174C7800D852D1 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		C135EB721B174D1E00D852D1 /* CEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEModel.h; sourceTree = "<group>"; };
 		C135EB731B174D1E00D852D1 /* CEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEModel.m; sourceTree = "<group>"; };
-		C14FA8371B18C28C00143FC8 /* CERoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoute.h; sourceTree = "<group>"; };
-		C14FA8381B18C28C00143FC8 /* CERoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoute.m; sourceTree = "<group>"; };
-		C14FA83B1B18C2B200143FC8 /* JLRoutes-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JLRoutes-iOS.framework"; path = "Carthage/Build/iOS/JLRoutes-iOS.framework"; sourceTree = "<group>"; };
+		C14FA9D11B1DBEFA00143FC8 /* Aspects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Aspects.framework; path = Carthage/Build/iOS/Aspects.framework; sourceTree = "<group>"; };
+		C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FXForms.framework; path = Carthage/Build/iOS/FXForms.framework; sourceTree = "<group>"; };
+		C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FXKeychain.framework; path = Carthage/Build/iOS/FXKeychain.framework; sourceTree = "<group>"; };
+		C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLRoutes.framework; path = Carthage/Build/iOS/JLRoutes.framework; sourceTree = "<group>"; };
+		C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		C14FA9D61B1DBEFA00143FC8 /* Objection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Objection.framework; path = Carthage/Build/iOS/Objection.framework; sourceTree = "<group>"; };
+		C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
+		C14FA9E31B1DBF4C00143FC8 /* CERoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoute.h; sourceTree = "<group>"; };
+		C14FA9E41B1DBF4C00143FC8 /* CERoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +157,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA8421B18CF1E00143FC8 /* JLRoutes-iOS.framework in Frameworks */,
+				C14FA9DA1B1DBEFA00143FC8 /* Aspects.framework in Frameworks */,
+				C14FA9DB1B1DBEFA00143FC8 /* FXForms.framework in Frameworks */,
+				C14FA9DC1B1DBEFA00143FC8 /* FXKeychain.framework in Frameworks */,
+				C14FA9DD1B1DBEFA00143FC8 /* JLRoutes.framework in Frameworks */,
+				C14FA9DE1B1DBEFA00143FC8 /* Masonry.framework in Frameworks */,
 				C135EB2E1B17453900D852D1 /* Mantle.framework in Frameworks */,
+				C14FA9DF1B1DBEFA00143FC8 /* Objection.framework in Frameworks */,
+				C14FA9E01B1DBEFA00143FC8 /* OHHTTPStubs.framework in Frameworks */,
+				C14FA9E11B1DBEFA00143FC8 /* ReactiveCocoa.framework in Frameworks */,
+				C14FA9E21B1DBEFA00143FC8 /* RNCryptor.framework in Frameworks */,
 				C135EB4D1B1745C200D852D1 /* CarthageExampleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,8 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA83C1B18C2B200143FC8 /* JLRoutes-iOS.framework in Frameworks */,
-				C135EB561B1745DB00D852D1 /* Mantle.framework in Frameworks */,
+				C14FA9E61B1DBFC300143FC8 /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +191,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA83D1B18C2CF00143FC8 /* JLRoutes-iOS.framework in Frameworks */,
-				C135EB571B17498B00D852D1 /* Mantle.framework in Frameworks */,
 				C135EB411B1745C200D852D1 /* CarthageExampleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,8 +199,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C135EB711B174C9800D852D1 /* Mantle.framework in Frameworks */,
-				C135EB701B174C8600D852D1 /* CarthageExampleCore.framework in Frameworks */,
 				C135EB601B174C7800D852D1 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +234,8 @@
 		C135EB061B17446000D852D1 /* CarthageExample */ = {
 			isa = PBXGroup;
 			children = (
+				C14FA9E31B1DBF4C00143FC8 /* CERoute.h */,
+				C14FA9E41B1DBF4C00143FC8 /* CERoute.m */,
 				C135EB0B1B17446000D852D1 /* AppDelegate.h */,
 				C135EB0C1B17446000D852D1 /* AppDelegate.m */,
 				C135EB0E1B17446000D852D1 /* ViewController.h */,
@@ -255,7 +277,15 @@
 		C135EB301B17459900D852D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C14FA83B1B18C2B200143FC8 /* JLRoutes-iOS.framework */,
+				C14FA9D11B1DBEFA00143FC8 /* Aspects.framework */,
+				C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */,
+				C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */,
+				C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */,
+				C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */,
+				C14FA9D61B1DBEFA00143FC8 /* Objection.framework */,
+				C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */,
+				C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */,
+				C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */,
 				C135EB2D1B17453900D852D1 /* Mantle.framework */,
 				C135EB5F1B174C7800D852D1 /* NotificationCenter.framework */,
 			);
@@ -269,8 +299,6 @@
 				C135EB381B1745C200D852D1 /* Supporting Files */,
 				C135EB721B174D1E00D852D1 /* CEModel.h */,
 				C135EB731B174D1E00D852D1 /* CEModel.m */,
-				C14FA8371B18C28C00143FC8 /* CERoute.h */,
-				C14FA8381B18C28C00143FC8 /* CERoute.m */,
 			);
 			path = CarthageExampleCore;
 			sourceTree = "<group>";
@@ -328,7 +356,6 @@
 			files = (
 				C135EB741B174D1E00D852D1 /* CEModel.h in Headers */,
 				C135EB3B1B1745C200D852D1 /* CarthageExampleCore.h in Headers */,
-				C14FA8391B18C28C00143FC8 /* CERoute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +451,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C14FA9EA1B1DC40E00143FC8 /* PBXTargetDependency */,
 			);
 			name = CarthageExampleTodayExtension;
 			productName = CarthageExampleTodayExtension;
@@ -528,8 +556,16 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Aspects.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FXForms.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FXKeychain.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JLRoutes.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Masonry.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Mantle.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/JLRoutes-iOS.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Objection.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RNCryptor.framework",
 			);
 			outputPaths = (
 			);
@@ -561,6 +597,7 @@
 				C135EB101B17446000D852D1 /* ViewController.m in Sources */,
 				C135EB0D1B17446000D852D1 /* AppDelegate.m in Sources */,
 				C135EB0A1B17446000D852D1 /* main.m in Sources */,
+				C14FA9E51B1DBF4C00143FC8 /* CERoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +614,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C135EB751B174D1E00D852D1 /* CEModel.m in Sources */,
-				C14FA83A1B18C28C00143FC8 /* CERoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +660,11 @@
 			isa = PBXTargetDependency;
 			target = C135EB5D1B174C7800D852D1 /* CarthageExampleTodayExtension */;
 			targetProxy = C135EB691B174C7800D852D1 /* PBXContainerItemProxy */;
+		};
+		C14FA9EA1B1DC40E00143FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C135EB351B1745C200D852D1 /* CarthageExampleCore */;
+			targetProxy = C14FA9E91B1DC40E00143FC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -876,6 +917,8 @@
 		C135EB6D1B174C7800D852D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -894,6 +937,8 @@
 		C135EB6E1B174C7800D852D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
