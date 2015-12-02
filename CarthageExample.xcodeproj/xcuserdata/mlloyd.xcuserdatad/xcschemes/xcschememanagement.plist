@@ -14,14 +14,19 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>CarthageExampleTodayExtension.xcscheme</key>
+		<key>CarthageExample_tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C119E21B1C0F36F5000E7850</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C135EB031B17446000D852D1</key>
 		<dict>
 			<key>primary</key>

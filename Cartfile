@@ -3,7 +3,7 @@ github "ReutersTV/FXForms" 	 	 "master"  # --- WORKS --- (Forked)
 github "nicklockwood/FXKeychain" "master"  # --- WORKS ---
 github "ReutersTV/JLRoutes" 		 "master"  # --- WORKS --- (Forked)
 github "Mantle/Mantle" 			 == 1.5.4  # --- WORKS --- (Consider using 2.x.x version ??)
-github "SnapKit/Masonry"  		 "master"  # --- WORKS ---
+github "SnapKit/Masonry"  		 == 0.6.3 #{}"master"  # --- WORKS ---
 github "ReutersTV/objection"	 "RTV_Carthage" # --- WORKS --- (Forked)
 github "rs/SDWebImage" 			 "master"  # --- WORKS ---
 github "ReutersTV/RNCryptor"		 "master"  # --- WORKS --- (Forked)
