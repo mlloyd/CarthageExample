@@ -1,0 +1,42 @@
+//
+//  TRDisposable.h
+//  TRToolKit
+//
+//  Created by Pedro Gomes on 21/02/2014.
+//  Copyright (c) 2014 Thomson Reuters. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+@protocol TRScopedDisposable;
+@protocol TRDisposable <NSObject>
+
+@optional
+
+@property (atomic, assign, getter = isDisposed, readonly) BOOL disposed;
+
++ (instancetype)disposableWithBlock:(void (^)(void))block;
+
+- (void)dispose;
+
+- (id<TRScopedDisposable>)asScopedDisposable;
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+@protocol TRScopedDisposable <TRDisposable>
+
++ (instancetype)scopedDisposableWithDisposable:(id<TRDisposable>)disposable;
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+@interface TRDisposable : NSObject <TRDisposable>
+
+- (id)init __attribute__((unavailable("Use +disposableWithBlock")));
+
+@end

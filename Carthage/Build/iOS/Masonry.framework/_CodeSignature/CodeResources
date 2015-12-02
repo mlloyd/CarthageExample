@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/MASUtilities.h</key>
 		<data>
-		aOHmgrV2Fb7YvCdWYaUpsjIfLTA=
+		96cU94gmaZlmTIbsrG49+paKUvQ=
 		</data>
 		<key>Headers/MASViewAttribute.h</key>
 		<data>
-		09gxZfuqdyGhOqMpyQCBSC3lqck=
+		YkvbTfeGIn8e9gvlaohVlXqXCBw=
 		</data>
 		<key>Headers/MASViewConstraint.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/Masonry.h</key>
 		<data>
-		AlSispvabTyXFrB3hy69mlYmZyY=
+		YtlpHMmj7Orog0mkO6Ygs0cIGOc=
 		</data>
 		<key>Headers/NSArray+MASAdditions.h</key>
 		<data>
-		7NTZ0LH2oREM6WO+olZctnIKYl4=
+		CXmiwTumqTBoBNYXDGs92oPu8bo=
 		</data>
 		<key>Headers/NSArray+MASShorthandAdditions.h</key>
 		<data>
@@ -56,9 +56,13 @@
 		<data>
 		hNE3nekO2+wI+cu8aINoq9Suob8=
 		</data>
+		<key>Headers/ViewController+MASAdditions.h</key>
+		<data>
+		M59TgyZp/ouZ0WqExjNnUvv0fTw=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		58e3Q+dm9zIR3+iLuBDjZvnLSyM=
+		dve+LIXiZpu/GqkEZIZd6kEgT68=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,11 +93,11 @@
 		</data>
 		<key>Headers/MASUtilities.h</key>
 		<data>
-		aOHmgrV2Fb7YvCdWYaUpsjIfLTA=
+		96cU94gmaZlmTIbsrG49+paKUvQ=
 		</data>
 		<key>Headers/MASViewAttribute.h</key>
 		<data>
-		09gxZfuqdyGhOqMpyQCBSC3lqck=
+		YkvbTfeGIn8e9gvlaohVlXqXCBw=
 		</data>
 		<key>Headers/MASViewConstraint.h</key>
 		<data>
@@ -101,11 +105,11 @@
 		</data>
 		<key>Headers/Masonry.h</key>
 		<data>
-		AlSispvabTyXFrB3hy69mlYmZyY=
+		YtlpHMmj7Orog0mkO6Ygs0cIGOc=
 		</data>
 		<key>Headers/NSArray+MASAdditions.h</key>
 		<data>
-		7NTZ0LH2oREM6WO+olZctnIKYl4=
+		CXmiwTumqTBoBNYXDGs92oPu8bo=
 		</data>
 		<key>Headers/NSArray+MASShorthandAdditions.h</key>
 		<data>
@@ -122,6 +126,10 @@
 		<key>Headers/View+MASShorthandAdditions.h</key>
 		<data>
 		hNE3nekO2+wI+cu8aINoq9Suob8=
+		</data>
+		<key>Headers/ViewController+MASAdditions.h</key>
+		<data>
+		M59TgyZp/ouZ0WqExjNnUvv0fTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

@@ -11,6 +11,7 @@
 #import <WebImage/WebImage.h>
 #import <Aspects/Aspects.h>
 #import <Objection/Objection.h>
+#import <Masonry/Masonry.h>
 
 @interface ViewController ()
 
@@ -22,8 +23,15 @@
 {
     [super viewDidLoad];
     
-    JSObjectionInjector *defaultObjection = [JSObjection defaultInjector];
-    defaultObjection = nil;
+    if(NSClassFromString(@"JSObjection") != nil) {
+        JSObjectionInjector *defaultObjection = [JSObjection defaultInjector];
+        defaultObjection = nil;
+    }
+    
+    if([MASViewConstraint class]) {
+        MASViewConstraint *constraint = [[MASViewConstraint alloc] initWithFirstViewAttribute:nil];
+//        constraint = nil;
+    }
 }
 
 @end

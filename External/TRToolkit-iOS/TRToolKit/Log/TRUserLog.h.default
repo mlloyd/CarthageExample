@@ -1,0 +1,27 @@
+//
+//  TRLogUser.h.default
+//  Chowderios
+//
+//  Created by Pedro Gomes on 13/12/2013.
+//  Copyright (c) 2013 Thomson Reuters Global Resources. All rights reserved.
+//
+
+#ifndef TRFramework_TRLogUser_h
+#define TRFramework_TRLogUser_h
+
+////////////////////////////////////////////////////////////////////////////////
+// Uncomment the following if you need to customize the logging level and/or
+// The enabled logging contexts
+////////////////////////////////////////////////////////////////////////////////
+
+//#define TR_LOG_LEVEL (LOG_LEVEL_VERBOSE)
+//#define TR_ENABLED_LOGGING_CONTEXTS (   \
+//TRLogContextDefault |                   \
+//TRLogContextChowderService |            \
+//TRLogContextChowderDataUpdater |        \
+//TRLogContextChowderDataReader |         \
+//TRLogContextChowderEventBus |           \
+//TRLogContextAppDelegate |               \
+//TRLogContextCharts)
+
+#endif

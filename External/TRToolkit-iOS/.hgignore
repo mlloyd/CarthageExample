@@ -1,0 +1,7 @@
+syntax: glob
+Pods
+Podfile.lock
+TRToolKit.xcodeproj/xcuserdata
+TRToolKit.xcodeproj/project.xcworkspace/xcuserdata
+TRToolKit.xcworkspace/xcuserdata
+build

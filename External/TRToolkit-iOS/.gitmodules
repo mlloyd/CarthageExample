@@ -1,0 +1,2 @@
+[submodule "Carthage/Checkouts/CocoaLumberjack"]
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git

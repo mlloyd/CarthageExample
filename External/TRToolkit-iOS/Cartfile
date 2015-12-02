@@ -1,0 +1,3 @@
+github "mlloyd/CocoaLumberjack" "master"
+github "ReactiveCocoa/ReactiveCocoa" == 2.5
+

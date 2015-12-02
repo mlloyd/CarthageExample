@@ -1,29 +1,20 @@
-github "mlloyd/Aspects" 		 "master"  # --- WORKS --- (Forked)
-github "mlloyd/FXForms" 	 	 "master"  # --- WORKS --- (Forked)
+github "ReutersTV/Aspects" 		 "master"  # --- WORKS --- (Forked)
+github "ReutersTV/FXForms" 	 	 "master"  # --- WORKS --- (Forked)
 github "nicklockwood/FXKeychain" "master"  # --- WORKS ---
-github "mlloyd/JLRoutes" 		 "master"  # --- WORKS --- (Forked)
+github "ReutersTV/JLRoutes" 		 "master"  # --- WORKS --- (Forked)
 github "Mantle/Mantle" 			 == 1.5.4  # --- WORKS --- (Consider using 2.x.x version ??)
 github "SnapKit/Masonry"  		 "master"  # --- WORKS ---
-github "mlloyd/objection"		 "develop" # --- WORKS --- (Forked)
+github "ReutersTV/objection"	 "RTV_Carthage" # --- WORKS --- (Forked)
 github "rs/SDWebImage" 			 "master"  # --- WORKS ---
-github "mlloyd/RNCryptor"		 "master"  # --- WORKS --- (Forked)
-github "mlloyd/YLMoment" 		 "master"  # --- WORKS --- (Forked)
+github "ReutersTV/RNCryptor"		 "master"  # --- WORKS --- (Forked)
+github "ReutersTV/YLMoment" 		 "master"  # --- WORKS --- (Forked)
 
 github "TTTAttributedLabel/TTTAttributedLabel" "master" # --- WORKS ---
 
 # Unit Test Frameworks
 github "AliSoftware/OHHTTPStubs" == 4.0.2 	# --- WORKS ---
-
-# Sub frameworks
-github "mixpanel/mixpanel-iphone" 		 "master" # No dynamic frameworks to be built
-#github "CocoaLumberjack/CocoaLumberjack" "master"  # Swift compiler errors.. on master
-github "ReactiveCocoa/ReactiveCocoa" 	 == 2.5   # --- WORKS ---
-
 ##
 # Needs work: 
 ##
 github "robotmedia/RMStore"		"master"	# No dynamic frameworks to be built
-
-# Sub frameworks
 github "mixpanel/mixpanel-iphone" 		 "master" # No dynamic frameworks to be built
-#github "CocoaLumberjack/CocoaLumberjack" "master"  # Swift compiler errors.. on master

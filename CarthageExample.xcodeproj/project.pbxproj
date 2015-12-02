@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C119E2171C0F34FD000E7850 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C119E2161C0F34FD000E7850 /* Masonry.framework */; };
 		C135EB0A1B17446000D852D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB091B17446000D852D1 /* main.m */; };
 		C135EB0D1B17446000D852D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB0C1B17446000D852D1 /* AppDelegate.m */; };
 		C135EB101B17446000D852D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C135EB0F1B17446000D852D1 /* ViewController.m */; };
@@ -31,10 +32,8 @@
 		C14FA9DB1B1DBEFA00143FC8 /* FXForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */; };
 		C14FA9DC1B1DBEFA00143FC8 /* FXKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */; };
 		C14FA9DD1B1DBEFA00143FC8 /* JLRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */; };
-		C14FA9DE1B1DBEFA00143FC8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */; };
 		C14FA9DF1B1DBEFA00143FC8 /* Objection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D61B1DBEFA00143FC8 /* Objection.framework */; };
 		C14FA9E01B1DBEFA00143FC8 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */; };
-		C14FA9E11B1DBEFA00143FC8 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */; };
 		C14FA9E21B1DBEFA00143FC8 /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */; };
 		C14FA9E51B1DBF4C00143FC8 /* CERoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FA9E41B1DBF4C00143FC8 /* CERoute.m */; };
 		C14FA9E61B1DBFC300143FC8 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C135EB2D1B17453900D852D1 /* Mantle.framework */; };
@@ -111,6 +110,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C119E2161C0F34FD000E7850 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		C135EB041B17446000D852D1 /* CarthageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135EB081B17446000D852D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C135EB091B17446000D852D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,10 +143,8 @@
 		C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FXForms.framework; path = Carthage/Build/iOS/FXForms.framework; sourceTree = "<group>"; };
 		C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FXKeychain.framework; path = Carthage/Build/iOS/FXKeychain.framework; sourceTree = "<group>"; };
 		C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JLRoutes.framework; path = Carthage/Build/iOS/JLRoutes.framework; sourceTree = "<group>"; };
-		C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		C14FA9D61B1DBEFA00143FC8 /* Objection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Objection.framework; path = Carthage/Build/iOS/Objection.framework; sourceTree = "<group>"; };
 		C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
-		C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
 		C14FA9E31B1DBF4C00143FC8 /* CERoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERoute.h; sourceTree = "<group>"; };
 		C14FA9E41B1DBF4C00143FC8 /* CERoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERoute.m; sourceTree = "<group>"; };
@@ -159,13 +157,12 @@
 			files = (
 				C14FA9DA1B1DBEFA00143FC8 /* Aspects.framework in Frameworks */,
 				C14FA9DB1B1DBEFA00143FC8 /* FXForms.framework in Frameworks */,
+				C119E2171C0F34FD000E7850 /* Masonry.framework in Frameworks */,
 				C14FA9DC1B1DBEFA00143FC8 /* FXKeychain.framework in Frameworks */,
 				C14FA9DD1B1DBEFA00143FC8 /* JLRoutes.framework in Frameworks */,
-				C14FA9DE1B1DBEFA00143FC8 /* Masonry.framework in Frameworks */,
 				C135EB2E1B17453900D852D1 /* Mantle.framework in Frameworks */,
 				C14FA9DF1B1DBEFA00143FC8 /* Objection.framework in Frameworks */,
 				C14FA9E01B1DBEFA00143FC8 /* OHHTTPStubs.framework in Frameworks */,
-				C14FA9E11B1DBEFA00143FC8 /* ReactiveCocoa.framework in Frameworks */,
 				C14FA9E21B1DBEFA00143FC8 /* RNCryptor.framework in Frameworks */,
 				C135EB4D1B1745C200D852D1 /* CarthageExampleCore.framework in Frameworks */,
 			);
@@ -277,14 +274,13 @@
 		C135EB301B17459900D852D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C119E2161C0F34FD000E7850 /* Masonry.framework */,
 				C14FA9D11B1DBEFA00143FC8 /* Aspects.framework */,
 				C14FA9D21B1DBEFA00143FC8 /* FXForms.framework */,
 				C14FA9D31B1DBEFA00143FC8 /* FXKeychain.framework */,
 				C14FA9D41B1DBEFA00143FC8 /* JLRoutes.framework */,
-				C14FA9D51B1DBEFA00143FC8 /* Masonry.framework */,
 				C14FA9D61B1DBEFA00143FC8 /* Objection.framework */,
 				C14FA9D71B1DBEFA00143FC8 /* OHHTTPStubs.framework */,
-				C14FA9D81B1DBEFA00143FC8 /* ReactiveCocoa.framework */,
 				C14FA9D91B1DBEFA00143FC8 /* RNCryptor.framework */,
 				C135EB2D1B17453900D852D1 /* Mantle.framework */,
 				C135EB5F1B174C7800D852D1 /* NotificationCenter.framework */,
@@ -464,7 +460,7 @@
 		C135EAFC1B17446000D852D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Thomson Reuters";
 				TargetAttributes = {
 					C135EB031B17446000D852D1 = {
@@ -552,7 +548,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		C135EB2F1B17455B00D852D1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -560,12 +556,11 @@
 				"$(SRCROOT)/Carthage/Build/iOS/FXForms.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FXKeychain.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/JLRoutes.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Masonry.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Mantle.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Objection.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RNCryptor.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Masonry.framework",
 			);
 			outputPaths = (
 			);
@@ -709,6 +704,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -774,12 +770,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -788,12 +786,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -813,6 +813,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageExample.app/CarthageExample";
 			};
@@ -829,6 +830,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageExample.app/CarthageExample";
 			};
@@ -853,6 +855,7 @@
 				INFOPLIST_FILE = CarthageExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -875,6 +878,7 @@
 				INFOPLIST_FILE = CarthageExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -896,6 +900,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -910,6 +915,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -929,6 +935,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleTodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.CarthageExample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -945,6 +952,7 @@
 				);
 				INFOPLIST_FILE = CarthageExampleTodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thomsonreuters.CarthageExample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

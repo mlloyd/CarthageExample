@@ -1,0 +1,22 @@
+//
+//  TRUtilities.h
+//  TRToolKit
+//
+//  Created by Pedro Gomes on 07/03/2014.
+//  Copyright (c) 2014 Thomson Reuters. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+////////////////////////////////////////////////////////////////////////////////
+// Environment Variables
+////////////////////////////////////////////////////////////////////////////////
+extern BOOL TREnvironmentVariableIsDefined(NSString *variable);
+extern BOOL TREnvironmentVariableMatches(NSString *variable, NSString *value);
+extern NSString * TREnvironmentVariableValue(NSString *variable);
+
+////////////////////////////////////////////////////////////////////////////////
+// UUIDs
+////////////////////////////////////////////////////////////////////////////////
+extern NSString * TRCreatedUUID(void);
+extern NSString * TRCreatedUUIDForCurrentDevice(void);

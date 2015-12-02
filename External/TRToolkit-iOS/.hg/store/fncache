@@ -1,0 +1,101 @@
+data/TRToolKitTests/TRReachabilityServiceTests/TRReachabilityServiceTests.m.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRDelegatesContainerTests.m.i
+data/TRToolKit/Network/TRReachability.h.i
+data/TRToolKit/Delegation Proxy/TRDelegateContainer.h.i
+data/TRToolKit/Utils/TRQueue.h.i
+data/TRToolKit/Extensions/UIDevice+TRAdditions.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit.xcodeproj/xcuserdata/pedrogomes.xcuserdatad/xcschemes/xcschememanagement.plist.i
+data/TRToolKit/Utils/TRProfiler.h.i
+data/TRToolKitTests/en.lproj/InfoPlist.strings.i
+data/TRToolKit/Unit Testing/TRUnitTestingHelper.h.i
+data/TRToolKitTests/TRDataStackManagerTests/TRDataStackManagerTests.m.i
+data/TRToolKit/Network/TRReachabilityService.h.i
+data/TRToolKit/State Machine/TRStateMachine.h.i
+data/TRToolKit.xcodeproj/project.pbxproj.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolConformantObject.m.i
+data/TRToolKit/Core Data/TRDataStackManager.h.i
+data/TRToolKit/Core Data/NSManagedObjectContext+TRExtensions.h.i
+data/TRToolKit/Utils/TRUtilities.m.i
+data/TRToolKit/State Machine/TRState.h.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKitTests/en.lproj/InfoPlist.strings.i
+data/TRToolKit/State Machine/TRStateProtocol.h.i
+data/build.sh.i
+data/TRToolKit/Network/TRProxyResolver.m.i
+data/.hgtags.i
+data/TRToolKit/Scheduler/TRQueueScheduler.m.i
+data/TRToolKit/Network/TRProxyResolver.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolPartiallyConformantObject.h.i
+data/TRToolKitTests/TRLogTests/TRLogTests.m.i
+data/TRToolkit.podspec.i
+data/TRToolKitTests/TRStateMachineTests/TRStateMachineTests.m.i
+data/TRToolKit/Delegation Proxy/TRDelegateContainer.m.i
+data/TRToolKit/Scheduler/TRDisposable.m.i
+data/TRToolKit/Scheduler/TRDisposable.h.i
+data/TRToolKit/Unit Testing/TRUnitTestingHelper.m.i
+data/Vendor/XCAsyncTestCase/README.md.i
+data/TRToolKit.xcodeproj/project.xcworkspace/contents.xcworkspacedata.i
+data/TRToolKit/Utils/TRStack.m.i
+data/TRToolKit/State Machine/TRStateTransition.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolConformantObject.h.i
+data/TRToolKit/State Machine/TRStateMachine.m.i
+data/TRToolKit/Unit Testing/TRUnitTestingMacros.h.i
+data/TRToolKit/Core Data/TRManagedObjectContextPool.h.i
+data/Podfile.i
+data/TRToolKit/Network/TRReachability.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.h.i
+data/TRToolKit/Unit Testing/TRAsyncTestCase.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKitTests/AsyncXCTestingKitTests-Info.plist.i
+data/TRToolKit/Log/TRLog.m.i
+data/TRToolKit/Unit Testing/NSBundle+TRUnitTestAdditions.m.i
+data/TRToolKit/Utils/TRGCDUtils.h.i
+data/TRToolKit/Unit Testing/TRAsyncTestCase.h.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit/AsyncXCTestingKit-Prefix.pch.i
+data/TRToolKitTests/TRToolKitTests.m.i
+data/TRToolKit/Utils/TRGCDUtils.m.i
+data/TRToolKit/State Machine/TRStateTransitionProtocol.h.i
+data/TRToolKit/State Machine/TRStateTransition.m.i
+data/TRToolKit/Utils/TRUtilities.h.i
+data/LICENSE.md.i
+data/TRToolKit/Delegation Proxy/TRDelegateProxy.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.m.i
+data/.hgignore.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit/AsyncXCTestingKit.m.i
+data/TRToolKit/Network/TRImageLoader.m.i
+data/TRToolKit/Log/TRLogFormatter.m.i
+data/TRToolKit/State Machine/TRState.m.i
+data/TRToolKit/Unit Testing/NSBundle+TRUnitTestAdditions.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolPartiallyConformantObject.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit.xcodeproj/project.xcworkspace/contents.xcworkspacedata.i
+data/TRToolKitTests/TRToolKitTests-Info.plist.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKitTests/AsyncXCTestingKitTests.m.i
+data/TRToolKit/Delegation Proxy/TRDelegateProxy.h.i
+data/TRToolkit.podspec.sample.i
+data/Vendor/XCAsyncTestCase/.gitignore.i
+data/TRToolKit/TRToolKit-Prefix.pch.i
+data/TRToolKit/Core Data/TRDataStackManager.m.i
+data/TRToolKit/Network/TRReachabilityService.m.i
+data/TRToolKit/Log/TRLog.h.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit/AsyncXCTestingKit.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolConformantInvalidObject.m.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolNonConformantObject.m.i
+data/TRToolKit/Extensions/UIDevice+TRAdditions.h.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit.xcodeproj/xcuserdata/pedrogomes.xcuserdatad/xcschemes/AsyncXCTestingKit.xcscheme.i
+data/TRToolKit/Log/TRUserLog.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolConformantInvalidObject.h.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocolNonConformantObject.h.i
+data/TRToolKit/Utils/TRVerify.h.i
+data/TRToolKitTests/TRProxyResolverTests/TRProxyResolverTests.m.i
+data/TRToolKit.xcworkspace/contents.xcworkspacedata.i
+data/TRToolKit/Utils/TRStack.h.i
+data/TRToolKit/Utils/TRProfiler.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKitTests/AsyncXCTestingKitTests.h.i
+data/TRToolKit/Core Data/TRManagedObjectContextPool.m.i
+data/TRToolKitTests/TRDelegatesContainerTests/TRMockProtocol.h.i
+data/TRToolKit/Scheduler/TRQueueScheduler.h.i
+data/TRToolKit/Core Data/NSManagedObjectContext+TRExtensions.m.i
+data/TRToolKit/Log/TRLogFormatter.h.i
+data/TRToolKit/Log/TRUserLog.h.default.i
+data/TRToolKit/Utils/TRQueue.m.i
+data/Vendor/XCAsyncTestCase/AsyncXCTestingKit/AsyncXCTestingKit.xcodeproj/project.pbxproj.i
+data/TRToolKit/Network/TRImageLoader.h.i
+data/TRToolKit/Utils/TRMacros.h.i
