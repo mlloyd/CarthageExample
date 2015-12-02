@@ -1,20 +1,41 @@
-github "ReutersTV/Aspects" 		 "master"  # --- WORKS --- (Forked)
-github "ReutersTV/FXForms" 	 	 "master"  # --- WORKS --- (Forked)
-github "nicklockwood/FXKeychain" "master"  # --- WORKS ---
-github "ReutersTV/JLRoutes" 		 "master"  # --- WORKS --- (Forked)
-github "Mantle/Mantle" 			 == 1.5.4  # --- WORKS --- (Consider using 2.x.x version ??)
-github "SnapKit/Masonry"  		 == 0.6.3 #{}"master"  # --- WORKS ---
-github "ReutersTV/objection"	 "RTV_Carthage" # --- WORKS --- (Forked)
-github "rs/SDWebImage" 			 "master"  # --- WORKS ---
-github "ReutersTV/RNCryptor"		 "master"  # --- WORKS --- (Forked)
-github "ReutersTV/YLMoment" 		 "master"  # --- WORKS --- (Forked)
-
+#////////////////////////////////////////////////////////////////////////////////
+# Common iOS
+#////////////////////////////////////////////////////////////////////////////////
+github "ReutersTV/FXForms" 	"master"  # --- WORKS --- (Forked)
+# Hockey APP SDK
+github "ReutersTV/JLRoutes" "master"  # --- WORKS --- (Forked)
+github "SnapKit/Masonry"  	== 0.6.3  # --- WORKS ---
 github "TTTAttributedLabel/TTTAttributedLabel" "master" # --- WORKS ---
+github "ReutersTV/YLMoment" "master"  # --- WORKS --- (Forked)
 
+# pod 'FBSDKCoreKit',     '4.6.0'
+# pod 'FBSDKLoginKit',    '4.6.0'
+# pod 'PriorityPush',     '1.0.0'
+git "PriorityPush"       "git@git.sami.int.thomsonreuters.com:ReutersTV/PriorityPush.git"
+
+#////////////////////////////////////////////////////////////////////////////////
+# Common
+#////////////////////////////////////////////////////////////////////////////////
+github "ReutersTV/Aspects" 		 "master"  # --- WORKS --- (Forked)
+github "nicklockwood/FXKeychain" "master"  # --- WORKS ---
+github "Mantle/Mantle" 			 == 1.5.4  # --- WORKS ---
+github "ReutersTV/objection"	 "RTV_Carthage" # --- WORKS --- (Forked)
+github "ReutersTV/RNCryptor"	 "master"  # --- WORKS --- (Forked)
+github "robotmedia/RMStore"		 "master"	# No dynamic frameworks to be built
+github "rs/SDWebImage" 		"master"  # --- WORKS ---
+
+git "TRVideoKit" "git@git.sami.int.thomsonreuters.com:ReutersTV/TRVideoKit.git"
+git "MKTools" "git@git.sami.int.thomsonreuters.com:ReutersTV/MKTools.git"
+git "RTVVideoEffects" "git@git.sami.int.thomsonreuters.com:ReutersTV/RTVVideoEffects.git"
+# git "TRToolkit"       "git@git.sami.int.thomsonreuters.com:ReutersTV/TRToolkit-iOS.git"
+
+#////////////////////////////////////////////////////////////////////////////////
 # Unit Test Frameworks
+#////////////////////////////////////////////////////////////////////////////////
 github "AliSoftware/OHHTTPStubs" == 4.0.2 	# --- WORKS ---
+
 ##
 # Needs work: 
 ##
-github "robotmedia/RMStore"		"master"	# No dynamic frameworks to be built
+
 github "mixpanel/mixpanel-iphone" 		 "master" # No dynamic frameworks to be built
